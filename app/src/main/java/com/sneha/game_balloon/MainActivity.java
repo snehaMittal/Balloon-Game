@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity implements Balloon.BalloonLi
 
 
     private static final int MIN_ANIMATION_DELAY = 500;
-    private static final int MAX_ANIMATION_DELAY = 1500;
+    private static final int MAX_ANIMATION_DELAY = 800;
     private static final int MIN_ANIMATION_DURATION = 1000;
-    private static final int MAX_ANIMATION_DURATION = 8000;
+    private static final int MAX_ANIMATION_DURATION = 2000;
     private static final int NUMBER_OF_PINS = 5;
-    private static final int BALLOONS_PER_LEVEL = 10;
+    private static final int BALLOONS_PER_LEVEL = 20;
 
     private ViewGroup mContentView;
     private int[] mBalloonColors = new int[3];
